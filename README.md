@@ -11,6 +11,11 @@ title: Marijuana Business Daily dark theme
 
 ## Changelog
 
+### **1.0.1**
+
+- Unrelated to dark theme - Fixed Firefox bug where search bar overlaps nav
+
+
 ### **1.0.0 - Initial release**
 
 - Dark theme applied to home page and article pages
@@ -26,10 +31,10 @@ You should be using the browser add-on [Stylus](https://add0n.com/stylus.html). 
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/obscuredetour/mjbizdaily-dark/master/theme.user.css)
 
-If the above button does not work, you can simply go the [OpenUserCSS](https://openusercss.org/theme/5bbfe2317dd88f0c002c0714) page and install it.
+<!-- If the above button does not work, you can simply go the [OpenUserCSS](https://openusercss.org/theme/5bbfe2317dd88f0c002c0714) page and install it. -->
 
 #### Screenshots
 
-![Home page view](https://raw.githubusercontent.com/obscuredetour/odin-project-dark/master/ss-homepage.png)
+![Home page view](https://raw.githubusercontent.com/obscuredetour/mjbizdaily-dark/master/ss-homepage.png)
 
-![Internal page view](https://raw.githubusercontent.com/obscuredetour/odin-project-dark/master/ss-js-es6modules.png)
+![Internal page view](https://raw.githubusercontent.com/obscuredetour/mjbizdaily-dark/master/ss-article.png)
