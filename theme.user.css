@@ -1,0 +1,134 @@
+/* ==UserStyle==
+@name        Marijuana Business Daily dark theme
+@namespace   https://github.com/obscuredetour/
+@version     1.0.0
+@license     CC-BY-4.0
+@author      obscure detour (https://www.jeffreysummers.me)
+@homepageURL https://github.com/obscuredetour/mjbizdaily-dark
+@updateURL   https://github.com/obscuredetour/mjbizdaily-dark/theme.user.css
+==/UserStyle== */
+
+
+@-moz-document domain("mjbizdaily.com") {
+  body, .recent-news a, .edition-link, label {
+      color: #eee;
+  }
+  
+  h1, h2, h3, h4, h5, h6, h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+      color: #f4f5fb;
+  }
+  
+  a {
+      color: #cadcfa;
+  }
+  a:hover, .sidebar h5 a:hover {
+      color: #becfec;
+  }
+  
+  .nav-wrapper, .border-wrapper {
+      box-shadow: none;
+  }
+  
+  .top-bar, .mashicon-reddit {
+      background: #575f63
+  }
+  
+  .medium-horizontal>li>a, .medium-horizontal.menu .active>a, .dropdown.menu.vertical>li .is-dropdown-submenu, .medium-horizontal .is-dropdown-submenu a {
+      background: #575f63;
+      color: #f4f4f4;
+  }
+  .dropdown.menu.vertical>li .is-dropdown-submenu, .medium-horizontal .is-dropdown-submenu a {
+      border: 2px solid #575f63;
+  }
+  
+  .is-dropdown-submenu { border: none }
+  
+  #content, .features-header {
+      background: #2f3436;
+  }
+  
+  .features-title {
+      font-size: 1.5rem;
+      margin: 0.5rem 0 1.25rem 0;
+      border-bottom: 0;
+  /*     text-align: center; */
+  }
+  /* .features-title::after {
+      content: '';
+      display: block;
+      background: #9999995c;
+      height: 1px;
+      width: 25%;
+      margin: 1rem auto 0 auto
+  } */
+  
+  #content .features-title {
+      margin-top: 1.5rem;
+  }
+  
+  #content #main .features-title {margin-bottom: 2.5rem}
+  #main .features-title {margin-top: -1rem}
+  
+  main#main {
+      padding: 1.5rem;
+  }
+  #main row + row {
+      margin-bottom: 3rem
+  }
+  
+  .entry-title.single-title { padding: 1.5rem 0 }
+  
+  .searchbox-icon, main {
+      background: #3f4548;
+  }
+  
+  .searchbox-icon i, .sidebar .rslides_nav .fa, .pagination a, .pagination button { color: #fff }
+  .searchbox-open { 
+      max-height: 40px;
+  }
+  
+  .byline { margin: 0 0 0.75rem 0 }
+  .entry-content { margin: 0 0 1rem 0 }
+  
+  .byline, .sidebar .post-meta { color: #9c9c9c }
+  .byline a, .sidebar h5 a { color: #bbb }
+  
+  [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, [type=color]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=datetime]:focus, [type=email]:focus, [type=month]:focus, [type=number]:focus, [type=password]:focus, [type=search]:focus, [type=tel]:focus, [type=text]:focus, [type=time]:focus, [type=url]:focus, [type=week]:focus, textarea:focus {
+      background: transparent;
+      color: #f4f4f4;
+  }
+  
+  #optinBox input[type=text] {
+      background: #474e51;
+      color: #f4f4f4;
+  }
+  
+  #field0, #searchform input { border: none }
+  
+  [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea, [type=color]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=datetime]:focus, [type=email]:focus, [type=month]:focus, [type=number]:focus, [type=password]:focus, [type=search]:focus, [type=tel]:focus, [type=text]:focus, [type=time]:focus, [type=url]:focus, [type=week]:focus, textarea:focus {
+      box-shadow: none;
+      border-color: #bbb;
+  }
+  
+  .sidebar .rslides_nav, .recent-news ul li:first-child, .recent-news ul li {
+      background: #474e51;
+      border: none;
+      
+  }
+  
+  .recent-news ul li {
+    padding: 0.75rem 0.25rem 0
+  }
+  .recent-news .post-meta { margin-bottom: 0.25rem }
+  
+  .pagination li {
+      background: #474e51;
+      margin-right: 0.5rem;
+      border: none;
+  }
+  
+  .pagination a:hover, .pagination button:hover { background: #2f3436;  }
+  
+  /* orange background */
+  .pagination .current, .sidebar .block-title span, .medium-horizontal>.highlight>a { color: #2f3436 }
+  }
